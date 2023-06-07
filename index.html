@@ -14,37 +14,58 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main>
-      <div class="calculator">
-        <form class="calculator-form">
+    <main class="calculator">
+      <form class="calculator-form">
+        <div class="calculator-input-wrapper">
           <div class="calculator-form-group">
             <label for="day" class="calculator-label">Day</label>
-            <input type="number" id="day" class="calculator-input" />
+            <input
+              type="number"
+              id="day"
+              placeholder="DD"
+              class="calculator-input"
+            />
             <label for="day" class="calculator-error">error message</label>
           </div>
           <div class="calculator-form-group">
             <label for="month" class="calculator-label">Month</label>
-            <input type="number" id="month" class="calculator-input" />
+            <input
+              type="number"
+              id="month"
+              placeholder="MM"
+              class="calculator-input"
+            />
             <label for="month" class="calculator-error">error message</label>
           </div>
           <div class="calculator-form-group">
             <label for="year" class="calculator-label">Year</label>
-            <input type="number" id="year" class="calculator-input" />
+            <input
+              type="number"
+              id="year"
+              placeholder="YYYY"
+              class="calculator-input"
+            />
             <label for="year" class="calculator-error">error message</label>
           </div>
-          <button class="calculator-btn"></button>
-        </form>
-        <div class="calculator-results">
-          <p class="calculator-output">
-            <span class="calculator-years">38</span> years
-          </p>
-          <p class="calculator-output">
-            <span class="calculator-months">3</span> months
-          </p>
-          <p class="calculator-output">
-            <span class="calculator-days">26</span> days
-          </p>
         </div>
+        <button class="calculator-btn">
+          <img
+            src="./assets/images/icon-arrow.svg"
+            alt="arrow icon"
+            aria-hidden="true"
+          />
+        </button>
+      </form>
+      <div class="calculator-results">
+        <p class="calculator-output">
+          <span class="calculator-years">--</span> years
+        </p>
+        <p class="calculator-output">
+          <span class="calculator-months">--</span> months
+        </p>
+        <p class="calculator-output">
+          <span class="calculator-days">--</span> days
+        </p>
       </div>
     </main>
   </body>
