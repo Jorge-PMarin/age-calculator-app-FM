@@ -3,7 +3,7 @@
 This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
-### The challenge
+### Features
 
 Users should be able to:
 
@@ -20,20 +20,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop](./my-design/my-desktop-design.png)
+![desktop-error](./my-design/my-desktop-design-error.png)
+![mobile](./my-design/my-mobile-design.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Jorge-PMarin/age-calculator-app-FM
+- Live Site URL: https://jorge-pmarin.github.io/age-calculator-app-FM/?
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
